@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 // 1️⃣ Create Auth Context
 const AuthContext = createContext<any>(null);
 
+//Need to be stashed
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<string | null>(null);
   const router = useRouter();

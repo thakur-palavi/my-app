@@ -6,3 +6,5 @@ export const blogs = Array.from({ length: 50 }, (_, i) => ({
   }. It has some interesting details!`,
   image: `https://source.unsplash.com/random/400x300?sig=${i + 1}`,
 }));
+
+//new stash
