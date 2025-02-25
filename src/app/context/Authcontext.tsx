@@ -10,6 +10,7 @@ const AuthContext = createContext<any>(null);
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<string | null>(null);
   const router = useRouter();
+  //new branch
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
